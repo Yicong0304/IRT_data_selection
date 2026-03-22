@@ -20,21 +20,17 @@ import os
 import numpy as np
 import pandas as pd
 
-# ==========================================
-# 配置
-# ==========================================
+
 PARQUET_PATH = "/root/zhaoyicong/Dataset/chatbot_arena_conversations/data/train-00000-of-00001-cced8514c7ed782a.parquet"
 OUTPUT_PATH = "/root/zhaoyicong/ChatbotIRT/irt_experiment_prompts_200.json"
-
 TARGET_MODELS = {"vicuna-13b", "wizardlm-13b", "koala-13b", "alpaca-13b"}
 
-# prompt 长度范围
+
 MIN_LEN = 20
 MAX_LEN = 500
 
 
 def extract_prompt(conversation):
-    """从 conversation 数组中提取第一轮用户输入"""
     if conversation is None:
         return None
     for turn in conversation:
@@ -44,27 +40,21 @@ def extract_prompt(conversation):
 
 
 def is_toxic(row):
-    """检查是否有有害内容标记"""
-    # toxic_chat_tag
+    # toxic_chat_tag: {'roberta-large': {'flagged': False, ...}, 't5-large': {'flagged': False, ...}}
     tag = row.get("toxic_chat_tag")
-    if tag and isinstance(tag, (dict, str)):
-        if isinstance(tag, dict):
-            for v in tag.values():
-                if v:
-                    return True
-        elif tag not in ("", "none", "None"):
-            return True
+    if tag and isinstance(tag, dict):
+        for model_result in tag.values():
+            if isinstance(model_result, dict) and model_result.get("flagged", False):
+                return True
 
-    # openai_moderation
     mod = row.get("openai_moderation")
     if mod and isinstance(mod, dict):
-        flagged = mod.get("flagged", False)
-        if flagged:
+        if mod.get("flagged", False):
             return True
         categories = mod.get("categories", {})
         if isinstance(categories, dict):
             for v in categories.values():
-                if v:
+                if v is True:
                     return True
     elif mod and isinstance(mod, list):
         for item in mod:
@@ -74,7 +64,7 @@ def is_toxic(row):
                 categories = item.get("categories", {})
                 if isinstance(categories, dict):
                     for v in categories.values():
-                        if v:
+                        if v is True:
                             return True
     return False
 
@@ -217,3 +207,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
