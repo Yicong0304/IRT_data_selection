@@ -6,26 +6,21 @@ import torch
 from vllm import LLM, SamplingParams
 from vllm.distributed.parallel_state import destroy_model_parallel
 
-# ==========================================
-# 模型名 -> 本地路径的映射（与 Models/ 目录实际名称对齐）
-# ==========================================
+
 MODELS_ROOT = "/root/zhaoyicong/Models"
 MODEL_CONFIGS = {
     "vicuna-13b":   os.path.join(MODELS_ROOT, "vicuna-13b-v1.3"),
     "wizardlm-13b": os.path.join(MODELS_ROOT, "WizardLM-13B-V1.2"),
     "koala-13b":    os.path.join(MODELS_ROOT, "koala-13B-HF"),
     "alpaca-13b":   os.path.join(MODELS_ROOT, "alpaca-13b"),
-    # chatglm-6b: 第一代 GLM tokenizer 与当前 transformers/vLLM 不兼容，跳过
-    # "chatglm-6b":   os.path.join(MODELS_ROOT, "chatglm-6b"),
 }
 
-INPUT_JSON = "/root/zhaoyicong/ChatbotIRT/irt_experiment_prompts.json"
-OUTPUT_DIR = "/root/zhaoyicong/ChatbotIRT/Rollout"
+INPUT_JSON = "/root/zhaoyicong/IRT_data_selection/irt_experiment_prompts_200.json"
+OUTPUT_DIR = "/root/zhaoyicong/IRT_data_selection/Rollout"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
 def format_prompt(model_name, query):
-    """为不同时代的模型套用它们当年最熟悉的对话模板"""
     if "vicuna" in model_name or "wizardlm" in model_name:
         return f"USER: {query}\nASSISTANT:"
     elif "alpaca" in model_name:
@@ -68,7 +63,6 @@ def run_single_model(model_name, model_path, qids, raw_prompts):
     print("⚡ 开始批量生成回答...")
     outputs = llm.generate(formatted_prompts, sampling_params)
 
-    # 整理结果
     model_results = {}
     for i, (qid, output) in enumerate(zip(qids, outputs)):
         model_results[qid] = {
@@ -81,7 +75,6 @@ def run_single_model(model_name, model_path, qids, raw_prompts):
 
     print(f"✅ {model_name} 完成，结果保存至 {output_file}")
 
-    # 释放显存，为下一个模型腾空间
     destroy_model_parallel()
     del llm
     gc.collect()
@@ -89,7 +82,6 @@ def run_single_model(model_name, model_path, qids, raw_prompts):
 
 
 def main():
-    # 支持命令行指定单个模型: python run_rollout.py vicuna-13b
     if len(sys.argv) > 1:
         targets = sys.argv[1:]
         for t in targets:
@@ -99,7 +91,6 @@ def main():
     else:
         targets = list(MODEL_CONFIGS.keys())
 
-    # 读取 Prompt 数据
     with open(INPUT_JSON, "r", encoding="utf-8") as f:
         prompts_data = json.load(f)
 

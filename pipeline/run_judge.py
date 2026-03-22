@@ -29,8 +29,8 @@ JUDGE_CONFIGS = {
     "internlm": os.path.join(JUDGES_ROOT, "internlm2_5-7b-chat"),
 }
 
-ROLLOUT_DIR = "/root/zhaoyicong/ChatbotIRT/Rollout"
-OUTPUT_FILE = "/root/zhaoyicong/ChatbotIRT/judge_results.json"
+ROLLOUT_DIR = "/root/zhaoyicong/IRT_data_selection/Rollout"
+OUTPUT_FILE = "/root/zhaoyicong/IRT_data_selection/judge_results.json"
 
 TARGET_MODELS = ["vicuna-13b", "wizardlm-13b", "koala-13b", "alpaca-13b"]
 

@@ -2,14 +2,14 @@
 IRT 筛选实验 v2：在 prompt 和 rater 两个维度上验证 IRT 参数的筛选能力。
 
 实验设计:
-  Part 1: 仅筛 prompt（改进 quality_score = α_p × λ_p / (1 + |γ_p|)）
-  Part 2: 筛 rater → 联合筛 prompt
-          - rater ≤ 4 个: Leave-one-out 逐个去掉，选最优子集
-          - rater > 4 个: 按 rater quality score = α_r / (1 + |β_r|) 排序，逐步淘汰
+  Part 1a: 仅筛 prompt（v1 评分: quality_score = α_p × λ_p，不含难度惩罚）
+  Part 1b: 仅筛 prompt（v2 评分: quality_score = α_p × λ_p / (1 + |γ_p|)，含难度惩罚）
+  Part 2:  筛 rater → 联合筛 prompt
+           - rater ≤ 4 个: Leave-one-out 逐个去掉，选最优子集
+           - rater > 4 个: 按 rater quality score = α_r / (1 + |β_r|) 排序，逐步淘汰
 
 用法:
-    python run_irt.py                              # 先跑这个生成 IRT 参数
-    python run_filter_experiment_v2.py             # 再跑筛选实验
+    python run_filter_experiment_v2.py             # 跑全部实验
     python run_filter_experiment_v2.py --ks 20 30 40 50 60 70 80
     python run_filter_experiment_v2.py --keep-raters 5   # 指定保留 rater 数量
 """
@@ -29,8 +29,8 @@ from irt_raw_code import PairwiseIREvaluator
 # ==========================================
 # 路径配置
 # ==========================================
-JUDGE_RESULTS = "/root/zhaoyicong/ChatbotIRT/judge_results.json"
-OUTPUT_DIR = "/root/zhaoyicong/ChatbotIRT/Resultv2"
+JUDGE_RESULTS = "/root/zhaoyicong/IRT_data_selection/judge_results.json"
+OUTPUT_DIR = "/root/zhaoyicong/IRT_data_selection/ChatbotIRT/Resultv2"
 
 # rater 数量阈值：≤ 此值用 LOO，> 此值用 quality score 排序
 RATER_LOO_THRESHOLD = 4
@@ -236,14 +236,20 @@ def main():
     full_evaluator = fit_full_irt(df, use_rater=args.use_rater)
     prompt_params = full_evaluator.get_prompt_parameters()
 
-    # 改进的 quality_score: α_p × λ_p / (1 + |γ_p|)
-    prompt_params["quality_score"] = (
+    # 两种 quality_score:
+    #   v1: α_p × λ_p（不含难度惩罚）
+    #   v2: α_p × λ_p / (1 + |γ_p|)（含难度惩罚）
+    prompt_params["quality_score_v1"] = (
+        prompt_params["discriminability"] * prompt_params["feasibility"]
+    )
+    prompt_params["quality_score_v2"] = (
         prompt_params["discriminability"] * prompt_params["feasibility"]
         / (1 + prompt_params["difficulty_offset"].abs())
     )
-    prompt_params = prompt_params.sort_values("quality_score", ascending=False)
-    print(f"   Prompt quality score: mean={prompt_params['quality_score'].mean():.3f}, "
-          f"std={prompt_params['quality_score'].std():.3f}")
+    print(f"   Prompt quality score v1 (α×λ):         mean={prompt_params['quality_score_v1'].mean():.3f}, "
+          f"std={prompt_params['quality_score_v1'].std():.3f}")
+    print(f"   Prompt quality score v2 (α×λ/(1+|γ|)): mean={prompt_params['quality_score_v2'].mean():.3f}, "
+          f"std={prompt_params['quality_score_v2'].std():.3f}")
 
     # 打印 rater 参数
     if full_evaluator.n_raters > 0:
@@ -252,22 +258,42 @@ def main():
         print(rater_params.to_string(index=False))
 
     # ==========================================================
-    # Part 1: 仅筛 prompt（全部 rater）
+    # Part 1: 仅筛 prompt（全部 rater），两种评分方式
     # ==========================================================
+
+    # --- Part 1a: v1 评分 (α_p × λ_p) ---
     print("\n" + "=" * 70)
-    print("📋 Part 1: 仅筛 Prompt（改进 quality_score）")
+    print("📋 Part 1a: 仅筛 Prompt（v1: α×λ，不含难度惩罚）")
     print("=" * 70)
 
-    part1_results = run_prompt_filter(
+    prompt_params_v1 = prompt_params.sort_values("quality_score_v1", ascending=False)
+    part1a_results = run_prompt_filter(
         df, all_prompts, baseline_abilities, baseline_std, baseline_gap,
-        prompt_params, args.ks, args.random_repeats, args.use_rater,
-        rater_subset=None, label_prefix="[Part1] "
+        prompt_params_v1, args.ks, args.random_repeats, args.use_rater,
+        rater_subset=None, label_prefix="[Part1a] "
     )
 
-    part1_path = os.path.join(OUTPUT_DIR, "filter_v2_prompt_only.csv")
-    part1_results.to_csv(part1_path, index=False)
-    print(f"\n💾 Part 1 结果 → {part1_path}")
-    print(part1_results.to_string(index=False))
+    part1a_path = os.path.join(OUTPUT_DIR, "filter_v2_prompt_only_v1score.csv")
+    part1a_results.to_csv(part1a_path, index=False)
+    print(f"\n💾 Part 1a 结果 → {part1a_path}")
+    print(part1a_results.to_string(index=False))
+
+    # --- Part 1b: v2 评分 (α_p × λ_p / (1 + |γ_p|)) ---
+    print("\n" + "=" * 70)
+    print("📋 Part 1b: 仅筛 Prompt（v2: α×λ/(1+|γ|)，含难度惩罚）")
+    print("=" * 70)
+
+    prompt_params_v2 = prompt_params.sort_values("quality_score_v2", ascending=False)
+    part1b_results = run_prompt_filter(
+        df, all_prompts, baseline_abilities, baseline_std, baseline_gap,
+        prompt_params_v2, args.ks, args.random_repeats, args.use_rater,
+        rater_subset=None, label_prefix="[Part1b] "
+    )
+
+    part1b_path = os.path.join(OUTPUT_DIR, "filter_v2_prompt_only.csv")
+    part1b_results.to_csv(part1b_path, index=False)
+    print(f"\n💾 Part 1b 结果 → {part1b_path}")
+    print(part1b_results.to_string(index=False))
 
     # ==========================================================
     # Part 2: 筛 rater
@@ -404,11 +430,11 @@ def main():
     print(joint_results.to_string(index=False))
 
     # ==========================================================
-    # 可视化
+    # 可视化（3 行: Part1a, Part1b, Part2 Joint）
     # ==========================================================
     print("\n📈 生成可视化...")
 
-    fig, axes = plt.subplots(2, 3, figsize=(18, 10))
+    fig, axes = plt.subplots(3, 3, figsize=(18, 14))
 
     metric_names = ["spearman_rho", "ability_std", "max_gap"]
     metric_titles = ["Ranking Preservation (Spearman ρ)",
@@ -416,7 +442,8 @@ def main():
     metric_ylabels = ["Spearman ρ", "Std of θ", "θ_max - θ_min"]
 
     for row, (results_df, row_title) in enumerate([
-        (part1_results, "Part 1: Prompt Filtering Only"),
+        (part1a_results, "Part 1a: Prompt Filter (α×λ)"),
+        (part1b_results, "Part 1b: Prompt Filter (α×λ/(1+|γ|))"),
         (joint_results, f"Part 2: Joint (drop [{worst_rater}] + Prompt Filter)")
     ]):
         for col, (metric, title, ylabel) in enumerate(
@@ -470,8 +497,10 @@ def main():
     print("\n" + "=" * 70)
     print("📊 实验结果汇总")
     print("=" * 70)
-    print("\n--- Part 1: 仅筛 Prompt ---")
-    print(part1_results.to_string(index=False))
+    print("\n--- Part 1a: 仅筛 Prompt (α×λ) ---")
+    print(part1a_results.to_string(index=False))
+    print("\n--- Part 1b: 仅筛 Prompt (α×λ/(1+|γ|)) ---")
+    print(part1b_results.to_string(index=False))
     print(f"\n--- Part 2: Rater 筛选 (保留 {best_raters}) ---")
     if 'loo_df' in dir():
         print(loo_df.to_string(index=False))

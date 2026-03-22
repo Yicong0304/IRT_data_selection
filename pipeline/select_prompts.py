@@ -22,7 +22,7 @@ import pandas as pd
 
 
 PARQUET_PATH = "/root/zhaoyicong/Dataset/chatbot_arena_conversations/data/train-00000-of-00001-cced8514c7ed782a.parquet"
-OUTPUT_PATH = "/root/zhaoyicong/ChatbotIRT/irt_experiment_prompts_200.json"
+OUTPUT_PATH = "/root/zhaoyicong/IRT_data_selection/irt_experiment_prompts_200.json"
 TARGET_MODELS = {"vicuna-13b", "wizardlm-13b", "koala-13b", "alpaca-13b"}
 
 
