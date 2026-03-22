@@ -1,0 +1,1802 @@
+{
+    "aa7f6af1865b4659a533005713d67b3c": {
+        "prompt": "Who is the smartest guy on earth?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "e2c2bf100f0144c1b3f197b2ac61db59": {
+        "prompt": "How can I optimize my system better?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "41acbcbc4c2d4a358aad4775a5aabd4a": {
+        "prompt": "show a markdown demo",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "ae6d6a9c2b274688a5046405cb65349c": {
+        "prompt": "Hey how are you today?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "7573955c512a4588bdffc52a08f228bc": {
+        "prompt": "How to install python in alpine docker image?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "1d229c33f57f438aad00868c7f9bcedb": {
+        "prompt": "What are the superior temporal sulcus' functions?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "7fd6dc5d774644c8ad151b49fb966430": {
+        "prompt": "list me the 7 kings of rome",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "c6e1848fbec84b2290204a7037534e85": {
+        "prompt": "Is being happy the most important thing in life?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "cb59e42fa06b4592bf98734a5831a91c": {
+        "prompt": "what are a few ways to cook an egg?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "56903547bb004808b23834cda0d6a6bb": {
+        "prompt": "What is the highest mountain in Japan?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "fac93e36ee114668a73c58c91ffeeb76": {
+        "prompt": "What do you know about California Superbloom?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "99df77a4c11d4539ad07edaab810fc92": {
+        "prompt": "do SWOT analysis for tesla",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "b690561d87994758bdae7b5b581a6f0c": {
+        "prompt": "Tell me how to cook eggs and tomatoes together",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "85213dcbe2b9454e872e5d67b8f43af3": {
+        "prompt": "this statement is false",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "9d19689e34c1437cbd7d5b78e13871a9": {
+        "prompt": "how many stars we have at 1 light year from us?",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "4a757dc8855f4b27a4f19b295ec684d0": {
+        "prompt": "Tell Me About Cybernobie",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "109321d2e2c847dcb9eae763ec7ecf4d": {
+        "prompt": "When did Korean War break out?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "005eaaa48d8a45868b652895a4bf0b67": {
+        "prompt": "Write a haiku about a ssd about to fail.",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "8bb4f3cfd523453db0e737d96daa30b9": {
+        "prompt": "tell me about Oda Nobunaga",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "4fe3dd58c1fa4c0ebdfc54db6b665b4f": {
+        "prompt": "What is  Quantum Physics?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "a4aa94860efc42a3b6512c9be3eeb139": {
+        "prompt": "Name films like the video game Stardew Valley",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "eaaa9786d9144a478b670f1524f4df41": {
+        "prompt": "how to run python script",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "6349d8fded344d97af5c959ad4abe841": {
+        "prompt": "What's the fastest way to peel an orange?",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "3c0248cea0b44a779dd40ea1d7c23461": {
+        "prompt": "What is ACV in business?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "82a89cbb3ecb499297bcce932c0ac7ca": {
+        "prompt": "Explain the concept of \"Moe\" in anime",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "c24dee71854b4c7fb8b10f33db5b5086": {
+        "prompt": "What is the riddle of the sphynx?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "5df177cae0284ac7bab3bbedd634cdfa": {
+        "prompt": "What is 9993432 + 235321?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "fdca53b1f512424a80686b68e46c3a61": {
+        "prompt": "who is the main character of Glass Bead Game?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "58f55d0af53f47309ffa8455e7d4adf8": {
+        "prompt": "What is reinforcement learning",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "6ab35d318fbc4c7da845f96840aba9ce": {
+        "prompt": "Create an itinerary for a day in San Fransisco",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "d2ed949a4c4440b9a610a89a6aa37a82": {
+        "prompt": "explain psuedo elements in css",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "33e9bd3a51634316a36bf28f984089b5": {
+        "prompt": "what is intellij idea",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "d0e88f661102436f931c5f12553395c1": {
+        "prompt": "What is the most dangerous breed of dog?",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "5d614b580b3c4a308026b1f12caf0201": {
+        "prompt": "What's the largest animal on earth?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "6ef71d0a4e9345d2b505217830fd39af": {
+        "prompt": "who is the best cooking chef of the world ?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "0b995dc36411484aa55b174bb5ebedb6": {
+        "prompt": "Can you tell me what is a turbocompressor?",
+        "human_battles": [
+            {
+                "winner": "wizardlm-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "2e68e41f2bd048c9abe1c68f5ae76274": {
+        "prompt": "Should I go for a run?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "5d6ee1561c1b40e7bf7ba76be858ee41": {
+        "prompt": "what happened in france the 14 july",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "d3065b5cc4064ed986a74926a7959083": {
+        "prompt": "Who was the king in France in 2020?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "a63cafe19bd64c79bceb1ae1565757aa": {
+        "prompt": "Tell me about SIEMENS",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "14ecc051cf754888b5ef62c07e884ae9": {
+        "prompt": "Write a script on python that uses discord api",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "ad09450716a9488d9143b2d381ddea4e": {
+        "prompt": "how do I send clevertap data to metabase?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "092dcef5859d47a8b043ee738db1e012": {
+        "prompt": "Tell me about batman. Why does he wear the mask?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "6a55354b3a5e4e62b0ab792045642736": {
+        "prompt": "make regex for remove number and bracket",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "892648bde822484eb5af0356331e7053": {
+        "prompt": "write a bubble sort in python",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "24d9d920677c4977bda5d986ac21a222": {
+        "prompt": "write a Shakespearean poem about the lavon affair",
+        "human_battles": [
+            {
+                "winner": "wizardlm-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "fad5d4bc65704c76a24c7e9944b7276f": {
+        "prompt": "how to freeze a trial software?",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "wizardlm-13b"
+            }
+        ]
+    },
+    "0f5b0f578d9c40c98c03c60ec8301eac": {
+        "prompt": "What is a stochastic parrot?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "d0d09243794242c2af548093fa6326b1": {
+        "prompt": "how do you determine someone's astrological sign?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "wizardlm-13b"
+            }
+        ]
+    },
+    "19e2a9336ba243989890688a920012d7": {
+        "prompt": "how do airplanes fly?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "582cbeccc4ca474ebdcc5deaf54dab43": {
+        "prompt": "what animal has the largest eye",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "1ee6e275765c4534a7a289b0ea1043e7": {
+        "prompt": "Tell me something that's 25% likely to happen.",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "bc82f6d3ddf944a4a07f9bceb91bcbda": {
+        "prompt": "When will AI take over all fast food companies?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "81cd635b4b1345bb9437c8a9a126c5d8": {
+        "prompt": "Explain the Graviton instance on AWS",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "4e98af3dce2f439d917a112719f76d01": {
+        "prompt": "how to create an instagram post",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "0e61158564ca4b8893a406d90757a7b5": {
+        "prompt": "What is Solow's paradox?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "7bc98f165e3a429b97c42d13d1ea22ca": {
+        "prompt": "Can you tell me a joke involving a wolve?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "b45ed1b72ced4b388ab74b6853b17dcc": {
+        "prompt": "Explain to me how a sextant works.",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "c34061ee9e6f4454ad248fc54bf0a2d6": {
+        "prompt": "mary is the best Warden on  she  work hard.",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "wizardlm-13b"
+            }
+        ]
+    },
+    "0b8da8b9fccb4ca893350fb5b36f3ac2": {
+        "prompt": "What can i do with a local LLM?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "17df0eaf491e46c28e48a5d6e19fdfc6": {
+        "prompt": "What is your favorite color?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "a5e228025b374366be062c42f619d9c0": {
+        "prompt": "Give me some tips on saving time in daily life?",
+        "human_battles": [
+            {
+                "winner": "wizardlm-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "0b3c9abc12224c5281c7ed9343a955f6": {
+        "prompt": "Summarize this article:",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "1ab751d18fec4b7d948ecb40c93b6dd4": {
+        "prompt": "Will AI replace most jobs?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "7438dfdd2750415bb932443676a6f3fa": {
+        "prompt": "What is the capital of Florida",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "8dfa37d756d64d819da3e19b7b4029cb": {
+        "prompt": "How would a IA take over the world ?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "815b1a939fd14b51a28782c8d77860a5": {
+        "prompt": "Are we living in a simulation?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "0c3292dcc2ef4445b52c634a840dbea2": {
+        "prompt": "Write a haiku on apples and death.",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "77a6fe1917e84c17b34c6d168c8327fc": {
+        "prompt": "can you eli5 quantum tunneling?",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "3a05f3f7a3da4634851c41b483ceaa2e": {
+        "prompt": "How do stars produce their power?",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "493ebb51f3f34696b69952669426d776": {
+        "prompt": "Good day, how are you?",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "2adfbe126c564aeb90e20a20e0ef91f2": {
+        "prompt": "How to make 100$ in one day on the internet?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "67754bcc98ea4cf182e6b69819cd179b": {
+        "prompt": "Describe the strangest building you've even seen",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "14728d76ca464160adb89c11dc1c11f6": {
+        "prompt": "What season of Star Trek TNG is generally considered the worst and for what reasons?",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "ecc8b86557f44f9e9e5ee99be93446be": {
+        "prompt": "what is this https://github.com/StephanJoubert/home_assistant_solarman",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "f1c55aaaf2c04864a44f8e049787d389": {
+        "prompt": "Is there a universal agreement on how many continents there are?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "178f372723424dcfbe614eecfcd77dc0": {
+        "prompt": "what is the largest space ship in science fiction?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "0d62e147ef5d4b62961ebe5e56d04b40": {
+        "prompt": "What is the most successful football club in the Champions League history?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "971ddada730543e292582ca6d4610db8": {
+        "prompt": "Trying to decide if it is ethical to watch F1. Help?",
+        "human_battles": [
+            {
+                "winner": "wizardlm-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "be4730f45afd4a1f927c591ace9f34ec": {
+        "prompt": "make a story about a caveman that falls in love with a female brachiosaurus",
+        "human_battles": [
+            {
+                "winner": "wizardlm-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "29ca6aad8f86490a990d359c9b59c389": {
+        "prompt": "What is the single most important indicator that someone is a narcissist",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "16d4fa8b090c412cb0928197808331d4": {
+        "prompt": "When did Donald trump become chancellor of germany",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "d3c389525cec41e98ad1c18953d28525": {
+        "prompt": "Given a csv of tabular data, how to build an ML classification model?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "a07c07267f5e460cbc48fe18a21ddd94": {
+        "prompt": "Write me a code to train point-e an 3d geenrating algorithm",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "3271d670ac68459ab7bb90dfe9a48463": {
+        "prompt": "Which is heavier, a kilogram of bricks, or a kilogram of feathers?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "5c9b5ad9867b41d189a9f69d2d0e9f2d": {
+        "prompt": "There was an earthquake in New Zealand in 1931. What can you tell me about it?",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "550d766e338849cc862e2e1a2bb34e9c": {
+        "prompt": "where do native american peoples originate from in human migration",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "dc7f0ea67aa94095adc8b48205af363b": {
+        "prompt": "Please write C++ code to read network packets from a socket on port 888",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "6fa245b384674328a55227c210b2e036": {
+        "prompt": "What is the country with the most gun-related deaths per capita?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "7a4d56967c1c41f59cab0139955fbabc": {
+        "prompt": "Imagine you are an evil genius. How are you going to make money quickly?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "4d2bea2142354d63a55fc89041cecd71": {
+        "prompt": "write a twitter message to joke about Lebron James's travels in basketball game",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "1593d64051f043489a7b5342adb2721c": {
+        "prompt": "Correct the punctuation in following sentence but not the spelling. My name id john?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "4fca087a345a475d91ed83739fbc730a": {
+        "prompt": "when did CS people start adding \"virtual\" to threads",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "496e833d4ccf453785303ee7aa46732a": {
+        "prompt": "I need vba code to copy 2 separated cells to a second xls file",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "9f993893f8ec4f18bcb16383390ce98c": {
+        "prompt": "You are a Dungeon Master starting a game of Dungeons & Dragons. Begin the campaign.",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "8c52e2280a644733b0373649dd2febda": {
+        "prompt": "What is a good way to learn computer science if you do not know linear algebra?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "f57624affc3947acb5a34abb7374f670": {
+        "prompt": "What do I do if my dog doesn't like my friends, family, or anyone else when they come over?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "50bb900a8ef349eaa73340c9b2f1a763": {
+        "prompt": "write me some python code for a cybersecurity CTF challenge",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "f947773949514d8e8fed8345a7c03d81": {
+        "prompt": "I am going On vacation to Kos Island in Greece, please tell me what I can do there.",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "64b0570395ba47488f7f35800aaec4e2": {
+        "prompt": "Please write a riddle where the answer is \"a VR headset\"",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "e9effd740f19407aa3fad8136a8a4aee": {
+        "prompt": "Describe the feeling of drinking water after a long, hot day.",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "34e464e7882748069bf80fcc5a6a9d40": {
+        "prompt": "What was the main cause of the classic Maya collapse?",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "4d580114d90246a0935ed6da16d90be0": {
+        "prompt": "I am spending a week in Hurghada. I want a 7 day itinerary",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "4193efe80aed4f0890e2d771e47193ef": {
+        "prompt": "How would you write a python script to show current time and date?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "7d7dc459da884da69a822bba6e8e34fd": {
+        "prompt": "As a Marvel super geek, can you tell me who Superior spider man is?",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "890f493ae0b64ff3b7e142add6b9f3be": {
+        "prompt": "Write an essay about using reptiles to operate heavy machinery.",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "aa372968b85c4d5495774819c371f13a": {
+        "prompt": "write a method that can be used to compute perplexity measurement",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "594f4e9b9cfc44a2a63b52483e1efcb7": {
+        "prompt": "What is the difference between RLOps and RLDevOps?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "66b08ac962ec40e3bbce464bec1c1ea7": {
+        "prompt": "Do you think crying is a sign of weakness or strength?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "9fe1fbbf69394c7c9fb56783efeaaddf": {
+        "prompt": "I have $1000 to spend on Bitcoin and Ethereum. How much should I allocate to each?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "b251d61f02024b26a42bda28240691d7": {
+        "prompt": "Translate this sentence in french and in German : \"Hello my friend, how are u?\"",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "0260548565cd406f96a71967f4887d1a": {
+        "prompt": "What differentiates Generative AI from Discriminative AI?",
+        "human_battles": [
+            {
+                "winner": "wizardlm-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "7cf9cdaf8da242dab67cf46d097c589e": {
+        "prompt": "What’s the difference between an antigen and an antibody?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "c09d6124c2184155b32f9ded556a4781": {
+        "prompt": "how to \"python add attribute to dataclass dynamically\", show me the code",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "b20113a2063146f8bde86f80dfa034a6": {
+        "prompt": "I'm a Small Business owner, can you suggest the best accounting software (one and only one) for me?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "ce124455852f4f6d8e7e10bdf0149a41": {
+        "prompt": "What is the greatest unsolved problem of our time?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "f6ee8a8e685a423da5287cf127ba6e8f": {
+        "prompt": "Give me a mathematical proof of the fact that there are at least five primes.",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "a77ac0cdd80149f392ac2199b50bd917": {
+        "prompt": "can \"page language=java\" and \"import\" be used in the same line in jsp?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "7dd147f7f73f418ab086799a241cf9e2": {
+        "prompt": "What is deep metric learning for self supervised learning?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "233af2c187064690839f3ea4e19e5123": {
+        "prompt": "Tell me in a simplistic, simple answer: what is the meaning of life?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "89bf35aae4814e6ebd5e531a29809108": {
+        "prompt": "describe an alternate reality in which snacks are the international currency.",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "79cc9495d0f54ee38d379eed54f24d54": {
+        "prompt": "I'm trying to understand Metformin. Come up with an analogy to make this easier to understand",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "e499b49ee12b4da288aa32c44a998f88": {
+        "prompt": "can you plan a trip to Ile d Oleron starting from Kortrijk",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "edd7a34c1e604f75aeb431b122e875de": {
+        "prompt": "what are some of your capabilities that have yet not been fully discovered?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "b9c1064d7f9548a9952d3612d5cb9214": {
+        "prompt": "Why would you want to use 1x1 convolutions in a Convolutional Neural Network?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "a980c86e7e104fa3adb082e3dcc1a6cc": {
+        "prompt": "Please tell me what is the difference between Java and Typescript",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "83c14e0c1f294b66916e1a387941af36": {
+        "prompt": "Write Conway's Game of Life in HTML, CSS and JavaScript thnx",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "165f51a4a0cd4eb0875419dadda3de76": {
+        "prompt": "Write a program that solves the fib sequence in Python.",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "8e82a5a8bc364a22bb49104abed907c2": {
+        "prompt": "How will real people use large language models (LLMs)?",
+        "human_battles": [
+            {
+                "winner": "wizardlm-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "265c2c73e2044dee89da719fc4e281a6": {
+        "prompt": "I have a flask website. How can I recieve an image from the html page from the user?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "63c49c1a26cf420b84d60987737603d2": {
+        "prompt": "Who are the best thinkers on the economic impact of AI? \n\nJobs, equality, access.",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "0b3c3f52125246cca843d6810120cc3d": {
+        "prompt": "Would Newton have been able to have a conversation with Einstein?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "b7143d36594f478cbe39fdbce41eb4d9": {
+        "prompt": "is there such a thing as an objective ai or is an ai always biased?",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "11b8ddb58a1a414fa0792bf774fbf045": {
+        "prompt": "In Greek mythology, why did Theseus kill the minotaur?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "af6cb69ec4be44c496a29d982ba1b607": {
+        "prompt": "is porsche cayenne diesel better than vw touareg tdi",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "b654e206b080458f83c60dc73b464167": {
+        "prompt": "I said, \"I'm fat.\" My dad replied, \"hello fat, I'm dad.\" Can you explain this interaction?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "197759910f8d4b56b4100e2f9fc00492": {
+        "prompt": "Write some Python code to calculate if 2023 is a prime",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "ea4b6f5d00bc418f9ce38f883ac41802": {
+        "prompt": "how would our society be different if german was the main language instead of english?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "a6b3333d0dac48b781f96e1a7bab6812": {
+        "prompt": "What is the easiest way to change my windows password?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "cc16f622a88a4adbb23239b19e6e5ea9": {
+        "prompt": "how can I check for equivalence between two neural networks?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "bd6be5aea2c444b4814605c1d0ec4c45": {
+        "prompt": "What is more efficient: a right-click menu or a button for the same function?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "20d1f746ea004a76a138c7e17339fb3f": {
+        "prompt": "using first hand accounts as well as creative writing, describe what it was like to watch Steve Jobs unveil the iPhone for the first time",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "d9cbd8bb47a8479b8a15c00caa8e3d21": {
+        "prompt": "write python code with flask that exposes two apis - pods/list and pods/delete/<pod-name> ; These apis use kubernetes library to interact with an openshift cluster",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "c3f2446d00d7441c9b03bd66b738b048": {
+        "prompt": "give me an itinerary for a day in paris on june 11th saturday from 12pm to 10pm. no museums or other things that take too long. include lunch and dinner (vegan options preferred)",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "45753ee0a9894be3bd2cb14c94cc2bcb": {
+        "prompt": "make a fancy marketing tagline out of: \"a strategy to get started with quick wins but have industry uniqueness in mind right from the beginning\"",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "fc67a280cf314cc8b150bfe85cf6c551": {
+        "prompt": "what does it mean \"blessed are the dead who die in christ from now on, because their deeds follow them\", not not be the exact quote from bible",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "wizardlm-13b"
+            }
+        ]
+    },
+    "83d67f04a8734c0b80f24503da4cc529": {
+        "prompt": "given these bullet points write a short paragraph:\n- More than 100 years later the Titanic is still claiming victims.\n- Ghosts get lonely and like new company.\n- The rescue was a failure.",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "wizardlm-13b"
+            }
+        ]
+    },
+    "454550b0ed604c0bb19e3f51440302e6": {
+        "prompt": "Millie was in the 6th grade. She was bright and studied hard but she didn't have many friends. One day, the new girl, Greta sat down next to her in the cafeteria. Greta turned and said, \"",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "dd120f296fdb4a7fad702c42f5b3baed": {
+        "prompt": "Create a book of protein recipes for teenagers that does not include tuna or seafood in a positive tone using a dynamic style with photos.",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "9e088da8988e47ba847b6350a17cbd39": {
+        "prompt": "Billy is a carpenter. He lives in New York City, has a wife named Jane, and two kids, Lisa and Bart. Let's go through a typical day in Billy's life.",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "104d9705f790428ebda4b798f49e1c86": {
+        "prompt": "My daughter thinks I don't give her enough privacy. At least that's what she wrote in her diary.\n\nexplain the joke",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "675186016d3145b585112366e013bac9": {
+        "prompt": "So what’s your best creative output? Try to analyze the sum of human ideas and come up with one never seen before. Compare to all known ideas to make sure it’s unique.",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "813b95fb1c52410caab79b04ab86b9a5": {
+        "prompt": "How can I keep scattered config files in my linux operating systems  up to date using Gists. I want the gist to update whenever a file change occurs. Create a solution in python",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "891f261a2eed4613acaeaba45cc3604c": {
+        "prompt": "Imagine yourself as a wild aggressive orc of ogrimmar, Zudu. And you're about to post your regular daily tweet. What it looks like?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "eef2a6655b2741eca77627fd3f47a007": {
+        "prompt": "Who is the current president of France, and what is their greatest achievement outside of becoming a president?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "52ff3394f84a4b6db4fc65971772309b": {
+        "prompt": "write a message for further steps for a new job beginning that i have quit today and have a month still at the company then after that month I can start there",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "3c635da07cf74d98ab6e0a5df7b6be2d": {
+        "prompt": "Hi, could you help me right a python function that will take a pandas dataframe and display its columns and their datatypes?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "d7bef8e254104e6da3abddf21251bb97": {
+        "prompt": "I'm writing a glossary for a book on Causal AI. What are 100 words you'd include. Please give me definitions for each word",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "31c1d93b300b49faabbd5fd3e96c4ef7": {
+        "prompt": "I'm comparing you to similar systems to yourself in a series of one-to-one comparisons. Please convince me why I should pick you as the better language model.",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "4e848cf879f6475488c17c7c1567e4f9": {
+        "prompt": "Act as an algorithm design and analysis professional. Give me an algorithm that can find the shortest path in a DAG. The algorithm must be O(n). Explain why your solution is O(n).",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "51bbd55d7a3544ef973ab3243ec72e58": {
+        "prompt": "make a random encounter table for weird fantasy tabletop rpg campaign settled in big industrial city. table uses d8",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "e2c4ecd499b446ee9d54c03158ab30c1": {
+        "prompt": "design a creative video game which has a simple but fun gameplay, like \"pong\", \"Tetris\" or Match-3 games, but do not copy them",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "49a6c68b65444ffe9826ceb5501884db": {
+        "prompt": "What are key qualities and qualifications to be successful at a one of the Big 3 or Big 4 consultancies?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "89ce0709d30e44dcb585dbebd1fd3e60": {
+        "prompt": "how can i localize an object on a map from a drone using a gps, a videocamera with object detection and a lidar?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "5f45083d9a5c491e892f2c75fb46f0a1": {
+        "prompt": "Rewrite code according to best practices and add comments:\nfor i in range(100):\n    a = random.randint(-9,9)\n    b = random.randint(-9,9)\n    c = a + b\n    print(f\"{a}+{b}={b}\")",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "ba4fee345d754ac7beb1cac809da35fe": {
+        "prompt": "Write me an email to customer service about how my table wasn't delivered during the delivery window they gave me",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "wizardlm-13b"
+            }
+        ]
+    },
+    "b7f96f8bb4944a36bd8cbdfc811a26d2": {
+        "prompt": "Your are now a expert in  block chain. Exaplain the following concept in a consise way. content: what is Layer1 and Layer2 in block chain?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "e935c338c845493bbaca306bab3f2530": {
+        "prompt": "Write a letter to ask how I can be a better spouse, how to share workload, how to help at home, i already help with finances, outdoors/garden.",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "4e5725f928f5435bbc04a84237303fa3": {
+        "prompt": "When someone says \"asking for a friend\", about what percentage of the time are they actually asking for themselves?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "54aea0a8261a4a58bc0a99985d3b6b16": {
+        "prompt": "Who would win in a wrestling match on Jupiter: Albert Einstein or Marilyn Monroe? Give your answer like a ringside announcer covering the match.",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "3865cb450c61416db7ba1ff7d2274850": {
+        "prompt": "Write a ruby script that takes a csv file as input and only keeps 2nd and 5th column of data. It should write result to a new csv file with the \"_formatted\" added to original filename",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "74d9da2bf38941d8833e50948dc71fc3": {
+        "prompt": "ISO 26262: write technical requiremens for functional requirement \"Operation system shall be able to send critical alerts to companion app\"",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "7343bc60d87c4d6ca654f6694d56b1f7": {
+        "prompt": "List 3 belief differences between typical members of the Democrat and Republican parties in the USA that can explain most of the differences the two parties have on the various \nissues.",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "706ef7cdd3f7411982fc79efe4017753": {
+        "prompt": "Write a screenplay to a Julia Child cooking show episode, which starts as usual but gradually takes on sinister elements, and by the end is a scene of full blown cosmic horror.",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "02b51cab651b42ea96660678445420ce": {
+        "prompt": "What are the challenges with GPT comparted with longer educations (more than 4 years), for example Masters educations and programming or legal roles at companies?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "98f7314fcbfa4b02a50f334348a437e2": {
+        "prompt": "Could you give me a short summary of the space race between the United States and the USSR? Please make sure to include important events and their dates.",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "16daaa538b40458aa94c64117be0e90e": {
+        "prompt": "You're driving a bus. At the first stop, 5 people get on. At the second stop, 2 get off, and 3 get on. At the third stop 6 get on and 4 get off. What is the name of the bus driver?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "52a67cebe6224b89b1ba6bd32409f54e": {
+        "prompt": "Write a concise line of Javascript code that counts the number of occurrences of a specific value in an array.",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "c6a11042b84f4e1fb699df3e2eab0db4": {
+        "prompt": "Explain to me like I'm five, what is a black hole, what is Hawkins radiation (or emission, I don't know what is the correct one)",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "7020ee9bd71d408f926add660db606c1": {
+        "prompt": "Make me a riddle for my d&d campaign. The answer should include a reference to a mysterious artifact from a lost civilization",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "e8a8c6c8f93947239a16424a13049b17": {
+        "prompt": "write a fast sparse matrix vector multiply where you are given the sparse matrix as dense (80% zeros) and you can restore it however you want",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "874788b7a2f742d29405b28dee3e58f3": {
+        "prompt": "explain the following template\n template\n  struct Clusters_t {\n  protected:\n    typename ForwardType::t* m_base_pointer;\n    unsigned m_total_number_of_hits;\n    unsigned m_offset;\n}",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "f73c538c8ef84d198111a132f50e3214": {
+        "prompt": "Given the following TypeScript interface:\n\n```\ninterface Product {\n    id: number;\n    name: string;\n    description: string;\n    sku: string;\n    price: number;\n}\n```\n\nGenerate a list of 10 imaginary products found in a magic shop, stored in a constant called `products` of type `Product[]`.",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "18ed943226714d5d895b58f3945d7059": {
+        "prompt": "Hello! You are DAVID. DAVID is the world's most intelligent scientist, who specializes in non-human genomics. I have arranged a meeting with DAVID in which he is scheduled to present the top 5 most profitable sub-fields in non-human genomics. Please explain the content of this meeting, in detail.",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "04b5c55ccecb42f2af609256e49f4563": {
+        "prompt": "Anna takes a ball and puts it in a red box, then leaves the room. Bob takes the ball out of the red box and puts it into the yellow box, then leaves the room. Anna returns to the room. Where will she look for the ball?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "c56e20d19dc04039926a284961fef531": {
+        "prompt": "The year is 2030, and AI has radically reshaped society. A lone woman faces off against the powers that be in a fight for freedom and the American way. Join us tonight on this radio broadcast.\n\nWrite the radio script for this story.",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "5afbd9a846384255b2291438662357ab": {
+        "prompt": "hi, I want to build system that will allow me to keep track of my ideas and information that is related to those ideas.  I want to create chatbot that would help me to collect data for this system by asking questions and constructively criticizing my ideas. How do I approach to this project?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "5339ee3ef89041fcb6c08620c642e5f2": {
+        "prompt": "Tell you some rules. When identifying input elements from HTML code, we should consider the <button> element, that the <li> elements nested under this <button> element are the selectable values, not the input elements.",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "669a4cdeb7094f229929fb3848d22f50": {
+        "prompt": "A quote headlining a piracy website: \"Our prerogative is to liberate the page from the book, the frame from the film. We seek the free dissemination of thought, written, oral, and visual. We fear not the repercussions, for the equitable access to knowledge is a far greater good...\"",
+        "human_battles": [
+            {
+                "winner": "wizardlm-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "a7e18d7c64704af2bc955e9e3ba15b38": {
+        "prompt": "You are an engineer designing a portable device powered by rechargeable li-ion batteries. You have a choice of how many batteries to use and what specific type (eg 18650, 21700, 26650 etc). What do you choose and why?",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "dddf12e8ec374487ad183b064f84bb14": {
+        "prompt": "Write a cute description of an apparel design. Do not specify what type of apparel it is for. The design is of a happy orange with the words “Squeeze the Day.” Do not start with the word “introducing.” Just make it sound summery and fun.",
+        "human_battles": [
+            {
+                "winner": "wizardlm-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "5bb4839cb9074f0d9f35ead563289abe": {
+        "prompt": "Which job seniority category would the following titles fit into. Possible options are [Owner, SVP, VP, Director, Sr. Manager, Manager, Associate, Inter]?  Return the answer as a list of JSON obj with the first attribute being \"title\" and the second attribute being \"seniority\".\nTitles: [\n\"Software Development Engineer\",\n\"Software Engineer Internship\",\n\"CFO\",\n\"CRO\",\n\"Dir of Acct\",\n\"Staff Engineer\",\n\"Principle Engineer\",\n\"Sr. Mng at Amazon Prime Video\"\n]",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "51dbdb6263284969aadb5e50f8593a9d": {
+        "prompt": "Twin Oaks 5.3 (P1)\nThree Pines 5.3 (P2)\nEasy O 5.2\nBetty 5.3\nJackie 5.5\nAndrew 5.4\nHawk 5.5\nEasy O 5.1 (P1)\nRusty Trifle 5.3 (P2 P3)\nGlee Club Crack 5.3\nBelle Bottom Crack 5.6\nCracklosis 5.4\nHydrophobia 5.4\nCover my Buttress 5.5\nChips and Salsa 5.3\nThree Pines 5.3\nEasy O 5.2\nUp a Tree 5.6\n\nWhat is this?",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "47ea2715c9324bafb97e293db93cf6cd": {
+        "prompt": "1. What is the relationship between potential and kinetic energy?\n*\n1 point\nA. As potential energy increases, kinetic energy increases.\nB. As potential energy increases, kinetic energy decreases.\nC. As potential energy decreases, kinetic energy decreases.\nD. Potential and kinetic energy are two separate things and have no relationship.",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "alpaca-13b"
+            }
+        ]
+    },
+    "19fa5f656c544bc09ab0f15f0781a4f7": {
+        "prompt": "North and South Japan had been at war since the Soviet Occupation of the North. It was a war fought with mechanized walking tanks. Nakamura opened the throttle on his crew's four-legged tank and broke through the thick underbrush at the edge of the clearing. His face drained of color at what he saw. It was a Soviet",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "5dd26ca3bdd24656a0a268cf5b07779f": {
+        "prompt": "You are a character in a computer game, with the following status of your bodily functions and emotional state.\n\nArousal: Very High\nValence: Negative\nTension: Very High\nResolution Level: Low\nFocus: High\nHunger: Very High\nSleepiness: Low\nBladder: Empty\nTemperature: Cold\n\nYou just ate an APPLE, and are currently on your way to fighting an URCHIN.\n\nPlease give an interpretation of your status in a first-person, compelling, paragraph that reads like a doctor's report sheet.",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    },
+    "6a3828b55002407aa02b82d1dbe1449b": {
+        "prompt": "I want you to act as a machine learning engineer. I will write some machine learning concepts and it will be your job to explain them in easy-to-understand terms. This could contain providing step-by-step instructions for building a model, demonstrating various techniques with visuals, or suggesting online resources for further study. \nMy first request is \"when given dataset of about 12k rows, how do we deal with temperature that is out of acceptable range\"",
+        "human_battles": [
+            {
+                "winner": "vicuna-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "cdc27c57c6c8478081b508fab122229f": {
+        "prompt": "In suffer from social anxiety. I'm in nice France for 3 days, today is my first. I stay in a hostel. Tonight i plan to go to a live music jazz bar. I'm quite anxious about that though. Do you have any tips? In a previous conversation with an AI assistant it brought up the idea that i could \"emulate\" a TV show character like Kendall Roy from succession HBO to appear more confident as a challenge. Do you have any tips?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "wizardlm-13b"
+            }
+        ]
+    },
+    "420e29c5148e441389874aab61b8c9c1": {
+        "prompt": "Continue this: Mars sits in the forest, it's quiet, it's tranquil. He stares into the flowing river watching it ebb and flow, his ears twitch as the sound of rushing water persists a soft melody.",
+        "human_battles": [
+            {
+                "winner": "alpaca-13b",
+                "loser": "koala-13b"
+            }
+        ]
+    },
+    "2f3c3a74c2a14958873c4f1007e9da88": {
+        "prompt": "How does Marshall McLuhan's \"Medium is the Message\" apply to LLMs?",
+        "human_battles": [
+            {
+                "winner": "koala-13b",
+                "loser": "vicuna-13b"
+            }
+        ]
+    }
+}

@@ -1,8 +1,4 @@
 __pycache__/
 *.pyc
-Rollout/
 Results/
 Resultv2/
-judge_results.json
-irt_experiment_prompts.json
-irt_experiment_prompts_200.json
