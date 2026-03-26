@@ -1,0 +1,4 @@
+spearman_rho,kendall_tau,ability_std,max_gap,dropped_rater,remaining_raters
+0.7999999999999999,0.6666666666666669,2.1317413,4.36931,internlm,"['mistral', 'qwen']"
+1.0,1.0,2.10146,4.380068,mistral,"['internlm', 'qwen']"
+1.0,1.0,2.077497,4.190513,qwen,"['internlm', 'mistral']"
